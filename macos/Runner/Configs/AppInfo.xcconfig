@@ -8,7 +8,7 @@
 PRODUCT_NAME = najlepsza_pizza_w_miescie
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.najlepszaPizzaWMiescie
+PRODUCT_BUNDLE_IDENTIFIER = com.jacekferdynus.najlepszaPizzaWMiescie
 
 // The copyright displayed in application information
-PRODUCT_COPYRIGHT = Copyright © 2023 com.example. All rights reserved.
+PRODUCT_COPYRIGHT = Copyright © 2023 com.jacekferdynus. All rights reserved.

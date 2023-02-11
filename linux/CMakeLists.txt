@@ -7,7 +7,7 @@ project(runner LANGUAGES CXX)
 set(BINARY_NAME "najlepsza_pizza_w_miescie")
 # The unique GTK application identifier for this application. See:
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
-set(APPLICATION_ID "com.example.najlepsza_pizza_w_miescie")
+set(APPLICATION_ID "com.jacekferdynus.najlepsza_pizza_w_miescie")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

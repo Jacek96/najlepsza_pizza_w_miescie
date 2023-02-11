@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781534995066",
+    "project_id": "pizza-wroclaw-96",
+    "storage_bucket": "pizza-wroclaw-96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781534995066:android:44be8a4cc689dbaf9911c3",
+        "android_client_info": {
+          "package_name": "com.jacekferdynus.najlepsza_pizza_w_miescie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781534995066-rijsshn2lgo2u752u6ln75v1c4lo84hk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKeHDXj5TpbhdGqIRa6pXQzwYV3nEpl1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781534995066-rijsshn2lgo2u752u6ln75v1c4lo84hk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
