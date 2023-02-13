@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 class AddOpinionPageContent extends StatefulWidget {
@@ -14,6 +13,7 @@ class AddOpinionPageContent extends StatefulWidget {
 class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
   var restaurantName = "";
   var pizzaName = "";
+  var rating = 3.0;
 
   @override
   Widget build(BuildContext context) {
@@ -41,10 +41,22 @@ class _AddOpinionPageContentState extends State<AddOpinionPageContent> {
               });
             },
           ),
+          Slider(
+            onChanged: (newValue) {
+              setState(() {
+                rating = newValue;
+              });
+            },
+            value: rating,
+            min: 1.0,
+            max: 6.0,
+            divisions: 10,
+            label: rating.toString(),
+          ),
           ElevatedButton(
             onPressed: () {
               FirebaseFirestore.instance.collection('restaurants').add(
-                {'name': restaurantName, 'pizza': pizzaName, 'rating': 3.0},
+                {'name': restaurantName, 'pizza': pizzaName, 'rating': rating},
               );
             },
             child: const Text('Dodaj'),
