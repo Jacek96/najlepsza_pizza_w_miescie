@@ -27,19 +27,26 @@ class RestaurantPageContent extends StatelessWidget {
             children: [
               for (final document in documents) ...[
                 Padding(
-                  padding: const EdgeInsets.all(20.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(document['name']),
-                          Text(document['pizza']),
-                        ],
-                      ),
-                      Text(document['rating'].toString()),
-                    ],
+                  padding: const EdgeInsets.all(10.0),
+                  child: Container(
+                    padding: EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                      color: Colors.amber,
+                      borderRadius: BorderRadius.circular(100),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(document['name']),
+                            Text(document['pizza']),
+                          ],
+                        ),
+                        Text(document['rating'].toString()),
+                      ],
+                    ),
                   ),
                 ),
               ],
