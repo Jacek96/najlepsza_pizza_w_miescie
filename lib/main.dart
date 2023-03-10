@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:najlepsza_pizza_w_miescie/app/home/home_page.dart';
-import 'package:najlepsza_pizza_w_miescie/app/login/logi_page.dart';
+import 'package:najlepsza_pizza_w_miescie/app/features/home/home_page.dart';
+import 'package:najlepsza_pizza_w_miescie/app/features/login/logi_page.dart';
 import 'firebase_options.dart';
 
 void main() async {
