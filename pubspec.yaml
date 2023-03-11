@@ -39,6 +39,7 @@ dependencies:
   cloud_firestore: ^4.3.2
   flutter_bloc: ^8.1.2
   meta: ^1.7.0
+  flutter_launcher_icons: ^0.12.0
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +51,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/food-image.jpg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
