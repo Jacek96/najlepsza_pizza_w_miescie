@@ -1,8 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:najlepsza_pizza_w_miescie/app/home/add_opinion/add_opinion_page_content.dart';
-import 'package:najlepsza_pizza_w_miescie/app/home/my_account/my_account_page_content.dart';
-import 'package:najlepsza_pizza_w_miescie/app/home/restaurants/restaurants_paga_content.dart';
+import 'package:najlepsza_pizza_w_miescie/app/features/home/add_opinion/add_opinion_page_content.dart';
+import 'package:najlepsza_pizza_w_miescie/app/features/home/my_account/my_account_page_content.dart';
+import 'package:najlepsza_pizza_w_miescie/app/features/home/restaurants/restaurants_paga_content.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
